@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box; /* 1 */
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* global */
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", "sans-serif";
+}
+
+main {
+    height: 2000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    min-width: 144px;
+    height: 50px;
+    background-color: #4b4b4b;
+}
+
+.btn-signup {
+    display: inline-block;
+    min-width: 144px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 24.5px;
+    background: #171100;
+    padding: 16px 41px;
+}
+/* Body */
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .body {
+    display: flex;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav a {
+    color: #5f5b53;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 8px 21px;
+    /* background-color: #954545; */
+}
+
+.nav a:hover,
+.nav li.active a {
+    /* font-weight: 600; */
+    text-shadow: 1px 0px 0px currentColor;
+    color: #171100;
+}
+
+.header .nav ul {
+    display: flex;
+}
