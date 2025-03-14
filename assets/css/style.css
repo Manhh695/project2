@@ -23,23 +23,15 @@ a {
 /* button */
 .btn {
     display: inline-block;
-    min-width: 144px;
-    height: 50px;
+    min-width: 118px;
     background-color: #4b4b4b;
-}
-
-.btn-signup {
-    display: inline-block;
-    min-width: 144px;
-    color: #fff;
-    text-align: center;
-    font-size: 1.6rem;
+    border-radius: 24px;
     font-style: normal;
     font-weight: 600;
-    border-radius: 24.5px;
-    background: #171100;
-    padding: 16px 41px;
+    text-align: center;
+    color: #fff;
 }
+
 /* Body */
 
 .main-content {
@@ -51,6 +43,7 @@ a {
 
 .header .body {
     display: flex;
+    padding: 36px 0 8px 0;
 }
 
 .nav {
@@ -58,13 +51,13 @@ a {
 }
 
 .nav a {
+    position: relative;
     color: #5f5b53;
     text-align: center;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     padding: 8px 21px;
-    /* background-color: #954545; */
 }
 
 .nav a:hover,
@@ -74,6 +67,54 @@ a {
     color: #171100;
 }
 
+.nav li.active a::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #171100;
+    left: 21px;
+    bottom: 6px;
+}
+
 .header .nav ul {
     display: flex;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+}
+
+.header .btn-signup {
+    display: inline-block;
+    font-size: 1.6rem;
+    background: #171100;
+    line-height: 50px;
+    min-width: 144px;
+}
+
+.header {
+    background-color: #fffcf4;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -32px;
+}
+
+.header .action {
+    margin-left: 49px;
+}
+
+/* =================== Hero ===================== */
+
+.hero .img {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 25px;
+    object-position: -409px;
 }
