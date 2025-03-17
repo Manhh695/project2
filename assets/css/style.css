@@ -203,7 +203,9 @@ a {
 
 .card .title {
     color: #171100;
+    font-family: poppins;
     font-size: 1.8rem;
+    letter-spacing: normal;
     font-weight: 600;
     line-height: 1.67; /* 166.667% */
 }
