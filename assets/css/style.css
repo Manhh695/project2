@@ -553,3 +553,17 @@ a {
     margin-top: 32px;
     background: var(--primary-color);
 }
+
+.features.features-2 {
+    margin-top: 70px;
+}
+
+.features-2 .features-content {
+    width: 48%;
+}
+
+.features.features-2 .image {
+    width: 470px;
+    height: 440px;
+    object-position: 50% 0;
+}
