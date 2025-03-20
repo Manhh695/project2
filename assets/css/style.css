@@ -567,3 +567,102 @@ a {
     height: 440px;
     object-position: 50% 0;
 }
+
+/* =================== Blogs ===================== */
+.blog {
+    margin-top: 135px;
+    padding: 96px 0;
+    background-color: #fffcf4;
+}
+
+.blog .blog-content {
+    text-align: center;
+}
+
+.blog .blog-content .desc {
+    width: 448px;
+    margin: 16px auto auto;
+    color: #696262;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.blog .blog-list {
+    display: flex;
+    gap: 30px;
+}
+
+.blog .blog-item {
+    margin-top: 55px;
+    width: 33.33%;
+    background: #fff;
+    border-radius: 16px;
+}
+
+.blog .blog-item:hover {
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blog .blog-list .thumb {
+    /* width: 33.33%; */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+
+.blog .blog-item .blog-item-text {
+    padding: 20px 20px 28px;
+}
+
+.blog-item .blog-item-text .time {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+    padding-bottom: 12px;
+}
+.blog-item .blog-item-text .time::before {
+    content: "";
+    display: inline-block;
+    margin-right: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffb900;
+}
+
+.blog-item .blog-item-text .time::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    right: -27px;
+    height: 1px;
+    border-radius: 0.5px;
+    background-color: #e2dfda;
+    left: 0px;
+    bottom: 0px;
+}
+
+.blog-item .blog-item-text .title a {
+    display: inline-block;
+    font-family: poppins;
+    margin-top: 12px;
+    color: #171100;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    letter-spacing: 0px;
+}
+
+.blog-item .blog-item-text .btn {
+    margin-top: 12px;
+}
+
+.blog-item .blog-item-text .btn:hover {
+    background-color: var(--primary-color);
+}
